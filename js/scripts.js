@@ -21,8 +21,8 @@ PlacesBeen.prototype.findPlace = function(id) {
         return this.places[i];
       }
     }
+    return false;
   };
-  return false;
 }
 
 
